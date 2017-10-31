@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Fette Engschrift';
+    src: url('../fonts/fette-engschrift.otf');
+  }
+
+* {
+    font-family: 'Fette Engschrift', 'Oswald', sans-serif;
+}
+
+#main {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.container-fluid {
+    width: 100%;
+}
+.destaque {
+    font-weight: 800;
+    color: #ffa322;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.85em;
+}
+
+/*hello*/
+
+.hello {
+    background-image: url(../img/metro.jpg);
+    height: 100vh; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.estilo_hello {
+    height: 100vh;
+    background-color: rgba(255, 149, 0, 0.582);
+    padding-left: -15px;
+    -webkit-animation-name: caixa-hello;
+    -webkit-animation-duration: 1.8s;
+    animation-name: caixa-hello;
+    animation-duration: 1.8s;
+}
+.estilo_hello2 {
+    background-size: cover;
+}
+.item1 {
+    padding-top: 35%;
+}
+.titulo {
+    font-size: 12em;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.descricao {
+    padding-top: 50%;
+    color: rgb(206, 206, 206);
+    text-align: right;
+    font-size: 2em;
+}
+.item_menu {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 2.5%;
+    text-align: right;
+}
+.item_menu>a {
+    color: rgb(206, 206, 206);
+
+}
+.item_menu>a:hover {
+    color: #ffa322;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+/*dinheiro*/
+.money {
+    background-color:#222;
+    height: 100%;
+}
+#imagem1 {
+    background: url(../img/lagoa.png) center no-repeat;
+    height: 250px;
+    margin: 0 auto;
+}
+#imagem2 {
+    background: url(../img/sao-silvestre.png) center no-repeat;
+    height: 250px;
+    margin: 0 auto;
+}
+#imagem3 {
+    background: url(../img/canal-da-mancha.png) center no-repeat;
+    height: 250px;
+    margin: 0 auto;
+}
+.dinheiro_gasto {
+    font-size: 3em;
+    text-align: center;
+    padding: 6% 15px;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+.dinheiro_gasto2 {
+    text-align: center;
+    padding-bottom: 5%;
+    color: #d3d3d3;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+.d1 {
+    padding-bottom: 0;
+}
+.d2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dinheiro-destaque {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+}
+#slideval, #fee {
+    font-size: 1.5em;
+    color: #d3d3d3;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+.valores {
+    text-align: center;
+}
+.distancia1 {
+    padding-top: 4%;
+}
+.distancia2 {
+    padding-bottom: 4%;
+}
+
+.barrinha {
+    -webkit-appearance: none;
+    width: 50vw;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.barrinha:hover {
+    opacity: 1;
+}
+.barrinha::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 25px;
+    height: 25px; 
+    background: #ffa322; 
+    cursor: pointer;
+}
+.barrinha::-moz-range-thumb {
+    width: 25px; 
+    height: 25px;
+    background: #ffa322; 
+    cursor: pointer; 
+}
+
+.percurso {
+    text-align: center;
+    font-size: 2em;
+    color: #d3d3d3;
+    font-weight: 600;
+}
+.pdistancia {
+    text-align: right;
+    font-size: 2.3em;
+    color: #ffa322;
+    padding-bottom: 7%;
+    font-weight: 300;
+}
+
+/* time */
+.time {
+    height: 100vh;
+}
+.ttitulo1, .stitulo1 {
+    text-align: right;
+}
+.ttitulo1, .stitulo1, .ttitulo2, .stitulo2 {
+    color: #d3d3d3;
+}
+.ttitulo1, .ttitulo2 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffa322;
+    font-weight: 300;
+    font-size: 4em;
+}
+.stitulo1, .stitulo2 {
+    font-size: 2.5em;
+    padding-top: 3%;
+}
+
+
+
+.tempo1 {
+    background-image: url(../img/alvorada.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tempo2 {
+    background-image: url(../img/niteroi.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tempo3 {
+    background-image: url(../img/santos-dumont.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tempo4 {
+    background-image: url(../img/meier.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.destaque2 {
+    font-weight: 200;
+    color: #d3d3d3;
+}
+.tempo {
+    color: #ffa322;
+    font-family: 'Oswald', sans-serif;
+}
+.medida-t {
+    color: #ffa322;
+    font-size: 1.2em;
+}
+.medida-d {
+    color: #ffa322;
+}
+
+/*map */
+.mapa {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: #ffa322;
+}
+#map {
+    margin: 0 auto;
+    border: solid 10px #ffa322;
+}
+.maps {
+    font-weight: 400;
+    font-size: 4em;
+    color: white;
+}
+.legenda, .legendad {
+    color: white;
+    font-weight: 300;
+    font-size: 1.55em;
+}
+.legenda {
+    padding-top: 115%;
+}
+.overlay {
+    background: rgba(255, 255, 255, 0.6); 
+    position:relative; 
+    width:100%;
+    height:600px; 
+    top:600px; 
+    margin-top:-600px;  
+}
+ .maptext {
+     text-align: center;
+     padding-top: 30%;
+     font-size: 2em;
+     color: #222222;
+     font-weight: 300; 
+}
+
+/*historia*/
+.history {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: white;
+}
+.hist {
+    font-weight: 400;
+    font-size: 4em;
+    color: #ffa322;
+}
+
+/*manifesto */
+.manifeste {
+    padding-top: 6%;
+    text-align: center;
+}
+.manifeste a{
+    font-size: 2.3em;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+.manifeste a:hover {
+    color: #ffa322;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+}
+.manifesto-title {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: 300;
+    
+}
+.manifesto-sub {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: 'Oswald', sans-serif;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+
+.manifest {
+    background-color: #222;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.manifesto1, .manifesto2, .manifesto3 {
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #ffa322;
+    background-position: center;
+}
+.back {
+    text-align: center;
+    font-size: 2.3em;
+    color: #d3d3d3;
+    font-weight: 300;
+    padding-top: 6%;
+}
+.back:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ffa322;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+}

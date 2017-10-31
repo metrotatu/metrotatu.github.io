@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Tatu</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/media_queries.css" media="screen">
+	<link rel="stylesheet" href="css/animations.css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,500,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	
+    	
+</head>
+<body>
+
+<div id="main">	
+	<div class="container-fluid hello">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 estilo_hello row">
+				<div id="pin">
+					<h1 class="titulo">Tatu</h1>
+				</div>
+				<section>
+					<h3 class="descricao">evidenciando os furos do metrô carioca.</h3>
+				</section>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 estilo_hello2 row">
+			<section class="row"> 
+				<h4 class="item_menu item1"> <a href="#dinheiro" class="scroll"> Gastos </a> </h4>
+			</section>
+			<section class="row">
+				<h4 class="item_menu"> <a href="#tempo" class="scroll"> Tempo perdido </a> </h4>
+			</section>
+			<section class="row">
+				<h4 class="item_menu"> <a href="#mapa" class="scroll"> Mapa </a> </h4>
+			</section>
+			<section class="row">
+				<h4 class="item_menu"> <a href="#historia" class="scroll"> História </a></h4>
+			</section>
+			<section class="row">
+				<h4 class="item_menu item5"> <a href="#manifesto" class="scroll"> Manifeste-se! </a> </h4>
+			</section>
+		</div>
+	</div>
+
+	<div class="container-fluid money">
+	<section class="row">
+		<div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<section class="row">
+				<h1 class="dinheiro_gasto d1" id="dinheiro">A obra completa da linha <b class="dinheiro-destaque">4</b> custou <b class="medida-d">R$</b><b class="destaque stat-number" data-n="8.4">0</b><b class="medida-d"> bi</b>,</h1> <h1 class="dinheiro_gasto d2"><b class="dinheiro-destaque">70</b>% a mais que o estimado.</h1>
+				<h2 class="dinheiro_gasto2"> Valor referente à construção dos 16km atuais da linha 4. </h2>
+			</section>
+			<section class="row">
+				<input type="range" min = "0" max = "27" value="1" onchange ="feeCalculate(this.value)" oninput="feeCalculate(this.value)" class="barrinha"> 
+				<p class="valores distancia1"><span id="slideval" onchange="feeCalculate(this.value)" oninput="feeCalculate(this.value)"> Ajuste a barra para ver uma estimativa de quanto cada quilômetro de trilho custaria.</span> 
+				</p>
+				<p class="valores distancia2"><span id="fee"></span></p>
+			</section>
+		</div>
+		<div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
+	</section>
+		<section class=" row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> <div id="imagem1" class="foo"> </div> <h3 class="percurso"> Lagoa Rodrigo de Freitas </h3> <h4 class="pdistancia"> <b class="destaque stat-number" data-n="7">0</b>km </h4> </div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> <div id="imagem2" class="foo"> </div> <h3 class="percurso"> Corrida de São Sivestre </h3> <h4 class="pdistancia"> <b class="destaque stat-number" data-n="15">0</b>km </h4> </div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> <div id="imagem3" class="foo"> </div> <h3 class="percurso"> Canal da Mancha </h3> <h4 class="pdistancia"> <b class="destaque stat-number" data-n="33">0</b>km </h4> </div>
+		</section>
+	</div>
+
+	<div class="container-fluid time" id="tempo">
+		<section class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tempo1"> <h1 class="ttitulo1"><b class="destaque2">Alvorada</b> x <b class="destaque2">Galeão</b></h1> <h3 class="stitulo1"> Média hoje: <b class="tempo">1</b><b class="medida-t">h</b><b class="tempo"> 36</b> </h3> <h3 class="stitulo1"> Com metrô: <b class="tempo">37</b> <b class="medida-t">min</b> </h3>  </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tempo2"> <h1 class="ttitulo2"><b class="destaque2">Carioca</b> x <b class="destaque2">Jansen de Mello</b></h1> <h3 class="stitulo2"> Média hoje: <b class="tempo">1</b><b class="medida-t">h</b> <b class="tempo">15</b> </h3> <h3 class="stitulo2"> Com metrô: <b class="tempo">30</b> <b class="medida-t">min</b></h3> </div>
+		</section>
+		<section class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tempo3"> <h1 class="ttitulo1"><b class="destaque2">Galeão</b> x <b class="destaque2">Santos Dumont</b></h1> <h3 class="stitulo1"> Média hoje: <b class="tempo">1</b><b class="medida-t">h</b> <b class="tempo">20</b> </h3> <h3 class="stitulo1"> Com metrô: <b class="tempo">25</b> <b class="medida-t">min</b> </h3> </div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 tempo4"> <h1 class="ttitulo2"><b class="destaque2">Méier</b> x <b class="destaque2">Leblon</b></h1> <h3 class="stitulo2"> Média hoje: <b class="tempo">56</b> <b class="medida-t">min</b></h3> <h3 class="stitulo2"> Com metrô: <b class="tempo"><b class="tempo">20</b> <b class="medida-t">min</b> </h3></div>
+		</section>
+	</div>
+
+	<div class="container-fluid mapa" id="mapa">
+		<section class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<h1 class="maps" > Como deveria ser </h1>
+				<h3 class="legenda">Legenda</h3>
+				<h4 class="legendad"><img src="img/icon_blue.png" height="30px"> Estação em funcionamento</h4>
+				<h4 class="legendad"><img src="img/icon_red.png" height="30px"> Alguma intervenção foi realizada no local</h4>
+				<h4 class="legendad"><img src="img/icon_black.png" height="30px"> Apenas no papel</h4>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+				<div id="map">
+					<div class="click overlay maptext" onClick="style.pointerEvents='none'"> Clique/Toque para navegar no mapa </div>
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1QgUhQn0ZL-q2r9yMyLL_wiQ6lh4" width="100%" height="600px"></iframe>
+				</div>
+			</div>
+			<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+		</section>
+	</div>
+
+	<div class="container-fluid history" id="historia">
+		<section class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<h1 class="hist" > História</h1>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+				<div id="timeline">
+					<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1-UjFO8_B9Kaq-FnAYT4NYWTSQIslXy1kkbAFiFpbwFo&font=Fjalla-Average&lang=pt-br&initial_zoom=2' width='100%' height='650px' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="container-fluid manifest">
+		<section class="row"> 
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1 class="manifesto-title" id="manifesto"> Manifeste-se! </h1>
+				<h4 class="manifesto-sub"> Use as imagens abaixo</h4>
+			</div>
+		</section>
+		<section class="row">
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4"> <div class="manifesto1 foo"></div> </div>
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4"> <div class="manifesto2 foo"></div> </div>
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4"> <div class="manifesto3 foo"></div></div>
+		</section>
+		<section class="row">
+			<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 manifeste"> <a href="http://www.metrorio.com.br/fale-conosco/atendimento-ao-usuario" target="_blank"> Mensagem para a Metrô Rio </a> </div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 back"> Voltar para o topo</div>			
+			<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2"></div>
+		</section>
+	</div>
+<!-- <div class="planeja">
+ 	<form id="formPlaneje" action="#" method="get">
+		<label for="estacao-partida"> Local de saída</label>
+		<span class="select-style">
+			<select id="estacao-partida">
+				<option value> Local de saída</option>
+				<option value="acari">Acari/Fazenda Botafogo</option>
+				<option value="afonso_pena">Afonso Pena</option>
+				<option value="alcantara">Alcântara</option>
+				<option value="alvorada">Alvorada</option>
+				<option value="antero_de_quental">Antero de Quental</option>
+				<option value="antonina">Antonina</option>
+				<option value="arariboia">Araribóia</option>
+				<option value="bandeirantes">Bandeirantes</option>	
+				<option value="barreto">Barreto</option>
+				<option value="botafogo">Botafogo</option>
+				<option value="bras_de_pina">Brás de Pina</option>
+				<option value="caju">Caju</option>
+				<option value="campinho">Campinho</option>
+				<option value="cantagalo">Cantagalo</option>
+				<option value="cardeal_arcoverde">Cardeal Arcoverde</option>
+				<option value="carioca">Carioca</option>
+				<option value="catete">Catete</option>
+				<option value="central">Central</option>
+				<option value="cidade_de_deus">Cidade de Deus</option>
+				<option value="cidade_nova">Cidade Nova</option>
+				<option value="cinelandia">Cinelândia</option>
+				<option value="coelho_neto">Coelho Neto</option>v
+				<option value="colegio">Colégio</option>
+				<option value="cruz_vermelha">Cruz Vermelha</option>
+				<option value="del_castilho">Del Catilho/Nova América</option>
+				<option value="eng_rubens_paiva">Engenheiro Rubens Paiva</option>
+				<option value="engenho_da_rainha">Engenho da Rainha</option>
+				<option value="estacio">Estácio</option>
+				<option value="flamengo">Flamengo</option>
+				<option value="galeao">Galeão</option>
+				<option value="gamboa">Gamboa</option>
+				<option value="gardenia_azul">Gardênia Azul</option>
+				<option value="gavea">Gávea</option>
+				<option value="general_osorio">General Osório</option>
+				<option value="gloria">Glória</option>
+				<option value="guaxindiba">Guaxindiba</option>
+				<option value="humaita">Humaitá</option>
+				<option value="ilha">Ilha</option>
+				<option value="ilha_do_fundao">Ilha do Fundão</option>
+				<option value="inhauma">Inhaúma</option>
+				<option value="iraja">Irajá</option>
+				<option value="itambi">Itambi</option>
+				<option value="jansen_de_mello">Jansen de Mello</option>
+				<option value="jardim_botanico">Jardim Botânico</option>
+				<option value="jardim_catarina">Jardim Catarina</option>
+				<option value="jardim_de_alah">Jardim de Alah</option>
+				<option value="jardim_oceanico">Jardim Oceânico</option>
+				<option value="joquei">Jóquei</option>
+				<option value="laranjeiras">Laranjeiras</option>
+				<option value="largo_do_machado">Largo do Machado</option>
+				<option value="madureira">Madureira</option>
+				<option value="maracana">Maracanã</option>
+				<option value="marapendi">Marapendi</option>
+				<option value="maria_da_graca">Maria da Graça</option>
+				<option value="maua">Mauá</option>
+				<option value="neves">Neves</option>
+				<option value="ns_da_paz">Nossa Senhora da Paz</option>
+				<option value="nova_cidade">Nova Cidade</option>
+				<option value="nova_holanda">Nova Holanda</option>
+				<option value="nova_ipanema">Nova Ipanema</option>
+				<option value="parada_quarenta">Parada Quarenta</option>
+				<option value="paraiso">Paraíso</option>
+				<option value="pavuna">Pavuna</option>
+				<option value="penha">Penha</option>
+				<option value="praca_maua">Praça Mauá</option>
+				<option value="praca_onze">Praça Onze</option>
+				<option value="praca_seca">Praça Seca</option>
+				<option value="praca_xv">Praça XV</option>
+				<option value="pres_vargas">Presidente Vargas</option>
+				<option value="rodoviaria">Rodoviária</option>
+				<option value="sambodromo">Sambódromo</option>
+				<option value="saens_pena">Sãens Peña</option>
+				<option value="santos_dumont">Santos Dumont</option>
+				<option value="sao_conrado">São Conrado</option>
+				<option value="sao_cristovao">São Cristóvão</option>
+				<option value="sao_f_xavier">São Francisco Xavier</option>
+				<option value="siqueira_campos">Siqueira Campos</option>
+				<option value="Tanque">Tanque</option>
+				<option value="largo_do_machado">Thomaz Coelho</option>
+				<option value="triagem">Triagem</option>
+				<option value="viceente_de_carvalho">Vicente de Caravalho</option>
+				<option value="uruguai">Uruguai</option>
+				<option value="uruguaiana">Uruguaiana</option>
+				<option value="Vaz Lobo">Vaz Lobo</option>	
+				<option value="via_parque">Via Parque</option>
+				<option value="vila_laje">Vila Laje</option>
+				<option value="vila_do_joao">Vila do João</option>
+				<option value="visconde_itaborai">Visconde Itaboraí</option>
+				<option value="ze_garoto">Zé Garoto</option>			
+			</select>
+		</span>
+	</form>
+</div> -->
+
+
+
+
+</div> <!-- main -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="js/medida.js"></script>
+	<script src="js/count.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+</html>

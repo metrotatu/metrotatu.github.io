@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+    .estilo_hello {
+        width: 100vw;
+        height: 100vh;
+    }
+    .hello {
+        height: 100vh;
+    }
+    .estilo_hello2 {
+        background: url(../img/metro.jpg) right;
+        background-color: rgba(0, 0, 0, .5);
+        width: 100vw;
+    }
+    .item5 {
+        padding-bottom: 35%;
+    }
+    .dinheiro_gasto {
+        font-size: 2.5em;
+    }
+    #slideval, #fee {
+        font-size: 1.8em;
+    }
+    .item_menu {
+        margin-right: 5%;
+    }
+    .d2 {
+        margin-top: 0;
+    }
+    .dinheiro_gasto2, .valores {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .legenda {
+        padding-top: 2%;
+    }
+    .maptext {
+        padding-top: 75%;
+    }
+    .manifest {
+        height: 100%;
+    }
+    .manifesto1, .manifesto2 {
+        margin-bottom: 2.5%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .pdistancia {
+        text-align: center;
+    }
+}

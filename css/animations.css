@@ -1,0 +1,16 @@
+@-webkit-keyframes caixa-hello {
+    from {
+        width: 0%;
+        animation-timing-function: ease-in;
+    }
+    to {width: 50%;}
+}
+
+/* Standard syntax */
+@keyframes caixa-hello {
+    from {
+        width: 0%;
+        animation-timing-function: ease-in;
+    }
+    to {width: 50;}
+}
