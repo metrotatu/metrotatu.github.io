@@ -51,6 +51,7 @@
     font-weight: 400;
     padding-bottom: 0;
     margin-bottom: 0;
+    padding-left: 5%;
 }
 
 .descricao {
@@ -58,6 +59,7 @@
     color: rgb(206, 206, 206);
     text-align: right;
     font-size: 2em;
+    padding-right: 3%;
 }
 .item_menu {
     text-align: center;
