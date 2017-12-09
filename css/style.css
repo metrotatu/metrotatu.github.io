@@ -181,46 +181,7 @@ a>.item_menu:active, a>.item_menu:visited {
 
 
 
-.tempo1 {
-    background-image: url(../img/alvorada.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0;
-}
-.tempo2 {
-    background-image: url(../img/niteroi.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.tempo3 {
-    background-image: url(../img/santos-dumont.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.tempo4 {
-    background-image: url(../img/meier.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.destaque2 {
-    font-weight: 200;
-    color: rgba(255, 255, 255, 0.9);
-}
-.tempo {
-    color: #ffa322;
-    font-family: 'Oswald', sans-serif;
-}
-.medida-t {
-    color: #ffa322;
-    font-size: 1.2em;
-}
-.medida-d {
-    color: #ffa322;
-}
+
 
 /*map */
 .mapa {
@@ -246,14 +207,7 @@ a>.item_menu:active, a>.item_menu:visited {
 .map {
     padding-bottom: 3%;
 }
-/* .overlay {
-    background: rgba(255, 255, 255, 0.6); 
-    position:relative; 
-    width:100%;
-    height:700px; 
-    top:700px; 
-    margin-top:-700px;  
-} */
+
  .maptext {
      text-align: center;
      padding-top: 30%;
@@ -365,4 +319,3 @@ label {
 .instagram>a:hover, .instagram>a:active {
     color: #c57608;
 }
-
