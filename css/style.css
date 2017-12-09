@@ -25,93 +25,89 @@
 /*hello*/
 
 .hello {
-    background-image: url(../img/metro.jpg);
+    background-image: url(../img/linhas.png);
     height: 100vh; 
     background-size: cover;
     background-attachment: fixed;
 }
-.estilo_hello {
-    height: 100vh;
-    background-color: rgba(255, 149, 0, 0.582);
-    padding-left: -15px;
-    -webkit-animation-name: caixa-hello;
-    -webkit-animation-duration: 1.8s;
-    animation-name: caixa-hello;
-    animation-duration: 1.8s;
-}
+
 .estilo_hello2 {
     background-size: cover;
 }
-.item1 {
-    padding-top: 35%;
-}
+
 .titulo {
     font-size: 12em;
-    color: rgb(34, 34, 34);
+    color: white;
     font-weight: 400;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-left: 5%;
+    line-height: 1em;
+    text-align: center;
 }
 
 .descricao {
-    padding-top: 50%;
-    color: rgb(206, 206, 206);
-    text-align: right;
+    color: white;
+    text-align: center;
     font-size: 2em;
-    padding-right: 3%;
+}
+.descricao2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 10%;
+}
+.itens_menu {
+    padding-top: 10%;
 }
 .item_menu {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
+    font-weight: 300;
+    border: 1px solid white;
+    padding: 5% 15%;
+}
+.item_menu:hover, .item_menu:active, .item_menu:visited {
+    text-decoration: none;
+    border: 1px solid #ffa322;
+    padding: 5% 0;
+    background-color: #ffa322;
+}
+a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+a>.item_menu {
     color: white;
-    margin-top: 2.5%;
-    text-align: right;
 }
-.item_menu>a {
-    color: rgb(206, 206, 206);
-
-}
-.item_menu>a:hover {
-    color: #ffa322;
+a>.item_menu:hover {
+    color: white;
+    text-decoration: none;
     -webkit-transition-duration: .2s;
     -moz-transition-duration: .2s;
     -ms-transition-duration: .2s;
     -o-transition-duration: .2s;
     transition-duration: .2s;
 }
+a>.item_menu:active, a>.item_menu:visited {
+    text-decoration: none;
 
+}
 /*dinheiro*/
 .money {
     background-color:#222;
     height: 100%;
 }
-#imagem1 {
-    background: url(../img/lagoa.png) center no-repeat;
-    height: 250px;
-    margin: 0 auto;
-}
-#imagem2 {
-    background: url(../img/sao-silvestre.png) center no-repeat;
-    height: 250px;
-    margin: 0 auto;
-}
-#imagem3 {
-    background: url(../img/canal-da-mancha.png) center no-repeat;
-    height: 250px;
-    margin: 0 auto;
-}
 .dinheiro_gasto {
     font-size: 3em;
     text-align: center;
     padding: 6% 15px;
-    color: #d3d3d3;
+    color: white;
     font-weight: 300;
 }
 .dinheiro_gasto2 {
-    text-align: center;
     padding-bottom: 5%;
-    color: #d3d3d3;
+    color: white;
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
@@ -130,7 +126,7 @@
 }
 #slideval, #fee {
     font-size: 1.5em;
-    color: #d3d3d3;
+    color: white3;
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
 }
@@ -144,37 +140,11 @@
     padding-bottom: 4%;
 }
 
-.barrinha {
-    -webkit-appearance: none;
-    width: 50vw;
-    height: 25px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-.barrinha:hover {
-    opacity: 1;
-}
-.barrinha::-webkit-slider-thumb {
-    -webkit-appearance: none; 
-    width: 25px;
-    height: 25px; 
-    background: #ffa322; 
-    cursor: pointer;
-}
-.barrinha::-moz-range-thumb {
-    width: 25px; 
-    height: 25px;
-    background: #ffa322; 
-    cursor: pointer; 
-}
 
 .percurso {
     text-align: center;
     font-size: 2em;
-    color: #d3d3d3;
+    color: white;
     font-weight: 600;
 }
 .pdistancia {
@@ -187,13 +157,16 @@
 
 /* time */
 .time {
-    height: 100vh;
+    background-color: #222;
+}
+.horarios {
+    color: white;
 }
 .ttitulo1, .stitulo1 {
-    text-align: right;
+    text-align: center;
 }
 .ttitulo1, .stitulo1, .ttitulo2, .stitulo2 {
-    color: #d3d3d3;
+    color: white;
 }
 .ttitulo1, .ttitulo2 {
     font-family: 'Oswald', sans-serif;
@@ -213,6 +186,7 @@
     height: 50vh;
     background-size: cover;
     background-attachment: fixed;
+    padding: 0;
 }
 .tempo2 {
     background-image: url(../img/niteroi.jpg);
@@ -234,7 +208,7 @@
 }
 .destaque2 {
     font-weight: 200;
-    color: #d3d3d3;
+    color: white;
 }
 .tempo {
     color: #ffa322;
@@ -250,13 +224,11 @@
 
 /*map */
 .mapa {
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    background-color: #ffa322;
+    background-color: #222;
+    padding: 1%;
 }
 #map {
     margin: 0 auto;
-    border: solid 10px #ffa322;
 }
 .maps {
     font-weight: 400;
@@ -271,14 +243,14 @@
 .legenda {
     padding-top: 115%;
 }
-.overlay {
+/* .overlay {
     background: rgba(255, 255, 255, 0.6); 
     position:relative; 
     width:100%;
-    height:600px; 
-    top:600px; 
-    margin-top:-600px;  
-}
+    height:700px; 
+    top:700px; 
+    margin-top:-700px;  
+} */
  .maptext {
      text-align: center;
      padding-top: 30%;
@@ -297,6 +269,7 @@
     font-weight: 400;
     font-size: 4em;
     color: #ffa322;
+    text-align: center;
 }
 
 /*manifesto */
@@ -305,12 +278,13 @@
     text-align: center;
 }
 .manifeste a{
-    font-size: 2.3em;
-    color: #d3d3d3;
+    font-size: 2em;
+    color: white;
     font-weight: 300;
 }
 .manifeste a:hover {
     color: #ffa322;
+    text-decoration: none;
     -webkit-transition-duration: .2s;
     -moz-transition-duration: .2s;
     -ms-transition-duration: .2s;
@@ -322,6 +296,7 @@
     text-align: center;
     padding-top: 3%;
     font-weight: 300;
+    color: white;
     
 }
 .manifesto-sub {
@@ -329,15 +304,13 @@
     text-align: center;
     padding-bottom: 3%;
     font-family: 'Oswald', sans-serif;
-    color: #d3d3d3;
+    color: white;
     font-weight: 300;
 }
 
 .manifest {
-    background-color: #222;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 .manifesto1, .manifesto2, .manifesto3 {
@@ -349,18 +322,30 @@
 }
 .back {
     text-align: center;
-    font-size: 2.3em;
-    color: #d3d3d3;
+    font-size: 2em;
+    color: white;
     font-weight: 300;
     padding-top: 6%;
 }
 .back:hover {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffa322;
     -webkit-transition-duration: .2s;
     -moz-transition-duration: .2s;
     -ms-transition-duration: .2s;
     -o-transition-duration: .2s;
     transition-duration: .2s;
+}
+
+
+label {
+    display: block;
+    font-size: 1.3em;
+    color: white;
+    font-weight:300;
+}
+
+.hide {
+    display: none;
 }
