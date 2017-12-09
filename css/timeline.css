@@ -23,14 +23,14 @@
   padding: 0 10px;
   box-sizing: border-box;
   font-family:'Oswald', sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
 }
 .timeline__content-desc {
   margin: 0;
-  font-size: 1.1em;
+  font-size: 1.35em;
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
   line-height: 25px;
@@ -151,16 +151,17 @@
   position: relative;
 }
 .timeline-header__title {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 4em;
   font-family: 'Fette Engschrift', sans-serif;
   font-weight: normal;
   margin: 0;
+  padding-top: 2.5%;
 }
 .timeline-header__subtitle {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   font-family: "Oswald", sans-serif;
-  font-size: 2em;
+  font-size: 2.35em;
   margin: 10px 0 0 0;
   font-weight: 300;
 }

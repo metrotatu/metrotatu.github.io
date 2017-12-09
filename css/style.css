@@ -37,7 +37,7 @@
 
 .titulo {
     font-size: 12em;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 400;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -46,12 +46,12 @@
 }
 
 .descricao {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
     font-size: 2em;
 }
 .descricao2 {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
@@ -63,9 +63,9 @@
 }
 .item_menu {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 300;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.9);
     padding: 5% 15%;
 }
 .item_menu:hover, .item_menu:active, .item_menu:visited {
@@ -78,10 +78,10 @@ a:hover, a:active, a:visited {
     text-decoration: none;
 }
 a>.item_menu {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 a>.item_menu:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     -webkit-transition-duration: .2s;
     -moz-transition-duration: .2s;
@@ -102,12 +102,12 @@ a>.item_menu:active, a>.item_menu:visited {
     font-size: 3em;
     text-align: center;
     padding: 6% 15px;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
 }
 .dinheiro_gasto2 {
     padding-bottom: 5%;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
@@ -144,7 +144,7 @@ a>.item_menu:active, a>.item_menu:visited {
 .percurso {
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 600;
 }
 .pdistancia {
@@ -160,13 +160,13 @@ a>.item_menu:active, a>.item_menu:visited {
     background-color: #222;
 }
 .horarios {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 .ttitulo1, .stitulo1 {
     text-align: center;
 }
 .ttitulo1, .stitulo1, .ttitulo2, .stitulo2 {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 .ttitulo1, .ttitulo2 {
     font-family: 'Oswald', sans-serif;
@@ -208,7 +208,7 @@ a>.item_menu:active, a>.item_menu:visited {
 }
 .destaque2 {
     font-weight: 200;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 .tempo {
     color: #ffa322;
@@ -233,15 +233,18 @@ a>.item_menu:active, a>.item_menu:visited {
 .maps {
     font-weight: 400;
     font-size: 4em;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 .legenda, .legendad {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     font-size: 1.55em;
 }
 .legenda {
     padding-top: 115%;
+}
+.map {
+    padding-bottom: 3%;
 }
 /* .overlay {
     background: rgba(255, 255, 255, 0.6); 
@@ -263,7 +266,7 @@ a>.item_menu:active, a>.item_menu:visited {
 .history {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .hist {
     font-weight: 400;
@@ -278,8 +281,8 @@ a>.item_menu:active, a>.item_menu:visited {
     text-align: center;
 }
 .manifeste a{
-    font-size: 2em;
-    color: white;
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
 }
 .manifeste a:hover {
@@ -296,7 +299,7 @@ a>.item_menu:active, a>.item_menu:visited {
     text-align: center;
     padding-top: 3%;
     font-weight: 300;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     
 }
 .manifesto-sub {
@@ -304,7 +307,7 @@ a>.item_menu:active, a>.item_menu:visited {
     text-align: center;
     padding-bottom: 3%;
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
 }
 
@@ -315,7 +318,7 @@ a>.item_menu:active, a>.item_menu:visited {
 
 .manifesto1, .manifesto2, .manifesto3 {
     height: 300px;
-    width: 200px;
+    width: 300px;
     margin: 0 auto;
     background-color: #ffa322;
     background-position: center;
@@ -323,7 +326,7 @@ a>.item_menu:active, a>.item_menu:visited {
 .back {
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     padding-top: 6%;
 }
@@ -342,10 +345,24 @@ a>.item_menu:active, a>.item_menu:visited {
 label {
     display: block;
     font-size: 1.3em;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight:300;
 }
 
 .hide {
     display: none;
 }
+.instagram {
+    text-align: center;
+    padding-top: 0,5%;
+}
+.instagram>a {
+    color: #ffa322;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+.instagram>a:hover, .instagram>a:active {
+    color: #c57608;
+}
+

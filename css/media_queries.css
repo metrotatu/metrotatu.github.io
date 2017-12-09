@@ -44,6 +44,24 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .hello {
+        height: 120vh;
+    }
+    .conserta {
+        padding-left: 15px;
+    }
+    .descricao {
+        font-size: 1.7em;
+    }
+    .conserta2 {
+        padding-right: 0; 
+    }
+    .timeline-header__title {
+        padding-top: 12.5%;
+    }
+}
+
 @media (min-width: 993px) and (max-width: 1199px) {
     .pdistancia {
         text-align: center;
