@@ -139,9 +139,11 @@
   content: "";
 }
 .history {
-    background-attachment: fixed;
-    background-size: cover;
     background-image: url(../img/linhas.png);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 .timeline-header {
