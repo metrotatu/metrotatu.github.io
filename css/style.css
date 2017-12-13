@@ -256,26 +256,22 @@ a>.item_menu:active, a>.item_menu:visited {
     color: rgba(255, 255, 255, 0.9);
     
 }
-.manifesto-sub {
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 3%;
-    font-family: 'Oswald', sans-serif;
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 300;
-}
 
 .manifest {
     background-size: cover;
     background-attachment: fixed;
 }
 
-.manifesto1, .manifesto2, .manifesto3 {
+.manifesto1, .manifesto2, .manifesto3, .manifesto4, .manifesto5 {
     height: 300px;
     width: 300px;
     margin: 0 auto;
     background-color: #ffa322;
     background-position: center;
+}
+
+.manifestoss {
+    padding-top: 3%;
 }
 .back {
     text-align: center;

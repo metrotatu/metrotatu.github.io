@@ -42,6 +42,9 @@
     .manifesto1, .manifesto2 {
         margin-bottom: 2.5%;
     }
+    .manifesto5 {
+        margin-top: 3%;
+    }
 }
 
 @media screen and (max-width: 768px) {
